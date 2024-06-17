@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-function Form({factsearch}) {
-    const [factData, setfactData] = useState({
+
+function Form ({factsearch}) {
+    const [formData, setFormData] = useState({
         searchFact: "", 
     }); 
     const handleChange = (e) => {
-        setfactData({
-            ...factData,
+        setFormData({
+            ...formData,
             [e.target.name]: e.target.value,
 
         });
@@ -14,13 +15,13 @@ function Form({factsearch}) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        factsearch(factData.searchFact)
+        factsearch(formData.searchFact)
         onchange=(handleChange)
     };
     return(
     <div>
-        <Form onSubmit={handleSubmit}>
-        </Form>
+        <form onSubmit={handleSubmit}>
+        </form>
     </div>
     );
 }

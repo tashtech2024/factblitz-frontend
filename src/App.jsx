@@ -1,9 +1,6 @@
+// import Homepage from "./components/Pages/Homepage"
+// import AboutPage from "./components/Pages/Aboutpage"
 import "./App.css";
-// import FactDisplay from "./components/FactsDisplay";
-// import Homepage from "./components/Pages/Form";
-// // import NavBar from './components/NavBar'
-// import Form from "./components/Pages/Form";
-// // import FactDisplay from './components/FactsDisplay'
 import { useState, useEffect} from "react";
 
 function App() {
@@ -13,7 +10,7 @@ function App() {
   const getFact = async (searchFact) => {
     try {
       const res = await fetch(
-        "//dog-facts-api.herokuapp.com/api/v1/resources/dogs/all${apiKey}&f=${setfact}" + 1
+        " http://dog-api.kinduff.com/api/facts?number5" + 1
       );
 
       const data = await res.json();
@@ -25,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-    getFact("data");
+    getFact('data');
   }, []);
 
   return (
@@ -43,11 +40,9 @@ function App() {
       <img src="/FACTBLITZIMGLARGE.png" alt="" />
       <h1>Facts Blitz</h1>
       {/* Fact Button */}
-      <button><img src="/FACTBLITZlightBULBONLY.png"width="100" height="100" alt="" /></button>
+      <button onClick={getFact}><img src="/FACTBLITZlightBULBONLY.png"width="100" height="100" alt="" /></button>
       <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
-      {/* <Form factsearch />
-      {FactData ? <FactDisplay fact={FactsData}
-    getFact={getFact} /> : ""} */}
+
 
     <button>Click to sign up!</button>
     <br/>
