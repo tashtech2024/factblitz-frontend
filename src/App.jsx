@@ -43,10 +43,21 @@ function App() {
       <img src="/FACTBLITZIMGLARGE.png" alt="" />
       <h1>Facts Blitz</h1>
       {/* Fact Button */}
-      <button>Fact Me Please!</button>
+      <button><img src="/FACTBLITZlightBULBONLY.png"width="100" height="100" alt="" /></button>
+      <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
       {/* <Form factsearch />
       {FactData ? <FactDisplay fact={FactsData}
-        getFact={getFact} /> : ""} */}
+    getFact={getFact} /> : ""} */}
+
+    <button>Click to sign up!</button>
+    <br/>
+    
+      <footer>
+        <a className="aF"
+        href="">Home</a>
+          <a className="aF"
+        href="">Contact</a>
+      </footer>
     </>
   );
 }
