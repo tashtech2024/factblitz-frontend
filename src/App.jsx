@@ -3,6 +3,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import cors from "cors";
+// import NavBar from "./components/NavBar";
 import FactDisplay from "./components/FactsDisplay";
 // import Form from "./components/Form";
 
@@ -28,6 +29,8 @@ setFact(data)
   }, []);
   return (
     <>
+
+    {/* <NavBar/> */}
       {/* ********** NavBar */}
       <header>
         <nav className="NavBar">

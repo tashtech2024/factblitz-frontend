@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-function FactDisplay({ fact, getFact, FactsData }) {
-    console.log(fact);
+function FactDisplay({ facts, getFact, Facts }) {
+    console.log(facts);
 
     const updateFact = (factId, newFactContent) => {
         getFact(
-            FactsData.map((f) => {
+            facts.map((f) => {
                 if (f.id === factId) {
                     return {
                         ...f,
@@ -19,7 +19,7 @@ function FactDisplay({ fact, getFact, FactsData }) {
     }
     return (
         <div>
-            <h1>{fact}</h1>
+            <h1>{facts}</h1>
             {/* fact 
             fact={item}
             key={item_id ? item_id : item.id} */}

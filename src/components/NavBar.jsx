@@ -1,15 +1,12 @@
-// ! THIS STUFF IS IN APP.JSX AND RENDERING 
+// import {Link } from "react-router-dom"
 
-
-//* will keep nav bar 
-
-// export default function NavBar = {
+// export default function NavBar () {
 //     return(
 //         <nav className="NavBar">
-//         <a href="">Home</a>
-//         <a href="">About</a>
-//         <a href="">Log in/SignUp</a>
-//         <a href="">UserPage</a>
+//             <Link to="/">Home</Link>
+//             <Link to="/AboutPage">About</Link>
+//             <Link to="/">Log In / Sign Up</Link>
+//             <Link to="/Contact Page">Contact Us!</Link>
 //       </nav>
 //     )
 // }
