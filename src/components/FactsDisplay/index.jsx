@@ -19,7 +19,7 @@ function FactDisplay({ fact, getFact, FactsData }) {
     }
     return (
         <div>
-            <h1>{facts}</h1>
+            <h1>{fact}</h1>
             {/* fact 
             fact={item}
             key={item_id ? item_id : item.id} */}

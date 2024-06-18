@@ -20,8 +20,8 @@ function Form ({factsearch}) {
     };
     return(
     <div>
-        <form onSubmit={handleSubmit}>
-        </form>
+        <Form onSubmit={handleSubmit}>
+        </Form>
     </div>
     );
 }
