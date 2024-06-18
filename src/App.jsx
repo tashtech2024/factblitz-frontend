@@ -8,26 +8,21 @@ import FactDisplay from "./components/FactsDisplay";
 
 // app.use(cors())
 
-function App() {
-  const api = "https://meowfacts.herokuapp.com/?count=1";
-  const [fact, setFact] = useState(null);
-  // * Get Fact
-  const getFact = async (searchFact) => {
-    try {
-      const res = await fetch("https://api.api-ninjas.com/v1/facts?limit=15", {
-        headers: {
-          "Access-Control-Allow-Credentials": true,
-           "Access-Control-Allow-Origin": "*",
-          "X-Api-Key": import.meta.env.VITE_API_KEY,
-        },
-      });
-      const data = await res.json();
-      console.log(data);
-      // getFact(data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+function App(){
+const api = "https://dog-api.kinduff.com/api/facts?"
+const [FactsData, setFact] = useState(null); 
+
+const getFact = async () => {
+  try{
+    const res = await fetch(api)
+
+const data = await res.json(); 
+console.log(data);
+setFact(data)
+} catch (e) {
+  console.log(e);
+}};
+
   useEffect(() => {
     getFact("");
   }, []);
@@ -111,6 +106,7 @@ function App() {
           height="100"
           alt=""
         />
+        <FactDisplay/>
       </button>
       <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
       <img

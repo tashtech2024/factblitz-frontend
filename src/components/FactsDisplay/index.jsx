@@ -5,7 +5,7 @@ function FactDisplay({ fact, getFact, FactsData }) {
 
     const updateFact = (factId, newFactContent) => {
         getFact(
-            facts.map((f) => {
+            FactsData.map((f) => {
                 if (f.id === factId) {
                     return {
                         ...f,
