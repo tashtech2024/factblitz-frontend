@@ -1,6 +1,8 @@
-
+// ! THIS STUFF IS IN APP.JSX AND RENDERING 
 
 //* Where I will render facts - from this page - fact display will hold the data?
+
+// import FactDisplay from "../../FactsDisplay";
 
 // export default function Homepage (){
 //     return(
@@ -10,7 +12,8 @@
 //       <img src="/FACTBLITZIMGLARGE.png" alt="" />
 //       <h1>Facts Blitz</h1>
 //       {/* Fact Button */}
-//       <button>Fact Me Please!</button>
+//       <button onClick={FactDisplay}>
+//         <span>Fact Me Please!</span></button>
 //         </div>
 //     )
 // }

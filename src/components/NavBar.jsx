@@ -1,4 +1,4 @@
-
+// ! THIS STUFF IS IN APP.JSX AND RENDERING 
 
 
 //* will keep nav bar 
