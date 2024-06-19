@@ -66,10 +66,10 @@ Latasha D.Davis
 
 https://kinduff.github.io/dog-api/
 
-#### Get all items
+#### Get all facts
 
 ```http
-  GET /api/items
+  GET /api/facts
 ```
 
 | Parameter | Type     | Description                |
