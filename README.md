@@ -17,6 +17,7 @@ Information facts to increase intelligence while adding fun and interesting fact
 
 ## Roadmap:
 ### [Trello Board] [https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final)
+### [Notion] [[https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final](https://www.notion.so/Davis_Latasha_FactBlitz_Capstone-0bd08c40b30446deb12d5f3eff905a88?pvs=4))
 
 ## Wireframe:
 <img width="500" alt="" src="">
