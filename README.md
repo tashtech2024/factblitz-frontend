@@ -64,7 +64,7 @@ Latasha D.Davis
 
 ## API Reference
 
-!(https://kinduff.github.io/dog-api/)
+https://kinduff.github.io/dog-api/
 
 #### Get all items
 
