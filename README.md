@@ -3,7 +3,7 @@
 ## Description
 Meet your newest knowledge source, Fact Blitz!
 
-Impress your family & Friends with these uncommon and common facts
+Impress your family & Friends with these uncommon and common Dog facts
 
 * A full stack application utilizing CRUD functionalities. 
 
