@@ -1,8 +1,10 @@
+import React from "react"
+import NavBar from "../../NavBar"
 
-
-export default function(){
+function referencePage (){
     return(
         <div>
+            <NavBar/>
             <h1>Other Fun Fact Pages</h1>
             <h3>Mental Floss</h3>
             <li>Description: Mental Floss offers a wide range of articles on various topics, including history, science, pop culture, and more. It’s known for its quirky and fascinating facts.</li>
@@ -30,4 +32,5 @@ These websites are great resources for discovering new and intriguing informatio
         </div>
     )
 }
-    
+
+export default referencePage;

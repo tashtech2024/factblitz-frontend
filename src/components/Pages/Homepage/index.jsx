@@ -4,15 +4,34 @@
 
 /* eslint-disable react/prop-types */
 
-import { useContext } from "react";
+import React from "react";
+import { useState, useEffect } from "react";
 import NavBar from "../../NavBar.jsx"
 import FactDisplay from "../../FactsDisplay/index.jsx";
-import Footer from "../../Footer.jsx"
+
 
 function Homepage (){
+  const api = "https://dog-api.kinduff.com/api/facts?"
+  const [facts, setFact] = useState(null); 
+  const getFact = async () => {
+    try{
+      const res = await fetch(api)
+  const data = await res.json(); 
+  console.log(data.facts[0]);
+  setFact(data.facts[0])
+  } catch (e) {
+    console.log(e);
+  }};
+    useEffect(() => {
+      getFact();
+    }, []);
+
 return(
     <div>
             <NavBar/>
+              {/* Logo */}
+      <img src="/FACTBLITZIMGLARGE.png" alt="" />
+      <br />
  {/* BOOT STRAP IMAGES --------------------------------------------------------------------- */}
  <div className="container">
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -70,17 +89,20 @@ return(
         </div>
       </div>
       {/* BOOT STRAP IMAGES --------------------------------------------------------------------- */}
+      {/* Fact Display */}
+     <h2>{facts}</h2>
       {/* Fact Button */}
       <br />
-      <button onClick={FactDisplay}>
+      <button onClick={getFact}>
         <img
           src="/FACTBLITZlightBULBONLY.png"
           width="100"
           height="100"
           alt=""
         />
-        <FactDisplay/>
+    
       </button>
+      <br/>
       <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
       <img
         src="https://cdn.prod.website-files.com/64625c027dfd2204b73d973d/6555024a5d0ce0083a745b01_Indicator%20-%20Scroll%20Down%20-%20Timeline%201%20(1).gif"
@@ -92,7 +114,7 @@ return(
       <br />
       <br />
       <hr></hr>
-        <Footer/>
+    
         </div>
     )
 }
