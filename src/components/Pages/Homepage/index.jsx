@@ -4,6 +4,7 @@
 
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
 import React from "react";
 import { useState, useEffect } from "react";
 import NavBar from "../../NavBar.jsx"
@@ -111,7 +112,13 @@ return(
         height="100"
       />
       <br />
+
+     <div >
+     <Link to="/signloginpage">
       <button>Click to sign up!</button>
+      </Link>
+     </div>
+
       <br />
       <br />
       <hr></hr>

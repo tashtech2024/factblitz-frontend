@@ -1,5 +1,3 @@
-// import Homepage from "./components/Pages/Homepage"
-// import AboutPage from "./components/Pages/Aboutpage"
 import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import { useState, useEffect } from "react";
@@ -10,14 +8,9 @@ import ContactPage from "./components/Pages/ContactPage/index.jsx";
 import SigninLoginPage from "./components/Pages/SigninLoginPage/index.jsx";
 
 import cors from "cors";
-import FactDisplay from "./components/FactsDisplay";
-// import Form from "./components/Form";
 // app.use(cors())
 
 import "./App.css";
-
-
-
 
 function App(){
 const api = "https://dog-api.kinduff.com/api/facts?"
@@ -37,6 +30,7 @@ setFact(data.facts[0])
   return (
     <>
     <Router>
+      
    <Routes>
    <Route path="/" element={<Homepage />}>
       </Route> 
@@ -64,13 +58,3 @@ setFact(data.facts[0])
 }
 export default App
 
-{/* <h1>Facts Blitz</h1>
-<p>{fact}</p>
-<button onClick={getFact}>
-      <img
-        src="/FACTBLITZlightBULBONLY.png"
-        width="100"
-        height="100"
-        alt=""
-        />
-    </button> */}

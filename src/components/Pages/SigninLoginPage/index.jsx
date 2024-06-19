@@ -1,13 +1,18 @@
+/* eslint-disable react/prop-types */
 import React from "react";
+
 import { useState } from "react";
+import NavBar from "../../NavBar";
 
 function SigninLoginPage() {
   const [isLogin, setIsLogin] = useState(true);
+  const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleToggle = () => {
     setIsLogin(!isLogin);
+    setUsername(!isLogin)
     setEmail('');
     setPassword('');
   };
@@ -15,14 +20,15 @@ function SigninLoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isLogin) {
-      console.log('Logging in with', { email, password });
+      console.log('Logging in with', { username,password });
     } else {
-      console.log('Signing up with', { email, password });
+      console.log('Signing up with', { username, password });
     }
   };
 
   return (
     <div className="App">
+      <NavBar/>
       <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -52,4 +58,4 @@ function SigninLoginPage() {
   );
 }
 
-export default SigninLoginPage
+export default SigninLoginPage;
