@@ -184,6 +184,36 @@ setFact(data.facts[0])
       <br />
       <button>Join Now!</button>
       {/*======About Page==========================================*/}
+
+{/* OTHER FUN AND facts */}
+<hr/>
+<h1>Other Fun Fact Pages</h1>
+            <h3>Mental Floss</h3>
+            <h2>https://www.mentalfloss.com/</h2>
+            <li>Description: Mental Floss offers a wide range of articles on various topics, including history, science, pop culture, and more. It’s known for its quirky and fascinating facts.</li>
+            <h3>Fact Retriever</h3>
+            <li>Description: Fact Retriever provides a vast collection of fun and interesting facts across different categories such as animals, history, science, and entertainment.</li>
+            <h3>The Fact Site</h3>
+            <lil>Description: The Fact Site is dedicated to sharing fun and random facts about a variety of subjects, including celebrities, technology, and everyday life.
+These websites are great resources for discovering new and intriguing information.</lil>
+
+<h1>Weekly Quote</h1>
+<h2>“Believe in yourself and all that you are. Remember, the only way to discover the limits of the possible is to go beyond them into the impossible.” - Arthur C. Clarke</h2>
+    
+<h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
+      <img
+        src="https://i0.wp.com/sifugadget.com/wp-content/uploads/2024/02/Arrows-3-pointing-down-arrow-down-animated.gif?fit=300%2C158&ssl=1"
+        width="100"
+        height="100"
+      />
+      <br />
+      <button>Click to sign up!</button>
+      <br />
+      <br />
+      <hr/>
+
+      {/* Footer --------------------------------------------------- */}
+
       <footer>
         <a className="aF" href="">
           Home
