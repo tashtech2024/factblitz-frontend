@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from "react";
+import { useState } from "react";
 
-
-function SignInLoginPage() {
+function SigninLoginPage() {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -52,4 +52,4 @@ function SignInLoginPage() {
   );
 }
 
-export default SignInLoginPage
+export default SigninLoginPage
