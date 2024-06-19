@@ -75,7 +75,7 @@ https://kinduff.github.io/dog-api/
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `api_key` | `string` | ** NO Required**. Your API key - NOT Required |
 
 #### Get item
 
@@ -85,7 +85,7 @@ https://kinduff.github.io/dog-api/
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `id`      | `string` | ** NO Required**. Id of item to fetch |
 
 #### add(num1, num2)
 
