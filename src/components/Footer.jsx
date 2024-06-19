@@ -1,8 +1,4 @@
-
-
 //* Might delete
-
-
 
 // export default function Footer() {
 //     return(

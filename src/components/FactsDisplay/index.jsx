@@ -25,7 +25,7 @@ function FactDisplay({ facts, getFact, Facts }) {
             key={item_id ? item_id : item.id} */}
 
 {/* BUTTON */}
-        <button onClick={getFact}>
+        <button onClick={facts}>
   <span>Fact Me Please!</span>
 </button>
     

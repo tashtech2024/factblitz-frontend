@@ -1,6 +1,8 @@
+//** Nav Bar - will keep!  */
+
 // import {Link } from "react-router-dom"
 
-// export default function NavBar () {
+// export default function NavBar (props) {
 //     return(
 //         <nav className="NavBar">
 //             <Link to="/">Home</Link>

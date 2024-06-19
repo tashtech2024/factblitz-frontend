@@ -6,38 +6,32 @@ import cors from "cors";
 // import NavBar from "./components/NavBar";
 import FactDisplay from "./components/FactsDisplay";
 // import Form from "./components/Form";
-
 // app.use(cors())
-
 function App(){
 const api = "https://dog-api.kinduff.com/api/facts?"
-const [FactsData, setFact] = useState(null); 
-
+const [fact, setFact ] = useState(null); 
 const getFact = async () => {
   try{
     const res = await fetch(api)
-
 const data = await res.json(); 
-console.log(data);
-setFact(data)
+console.log(data.facts[0]);
+setFact(data.facts[0])
 } catch (e) {
   console.log(e);
 }};
-
   useEffect(() => {
-    getFact("");
+    getFact();
   }, []);
   return (
     <>
-
     {/* <NavBar/> */}
       {/* ********** NavBar */}
       <header>
         <nav className="NavBar">
           <a href="">Home</a>
           <a href="">About FB</a>
-          <a href="">Log in/SignUp</a>
-          <a href="">UserPage</a>
+          <a href="">Contact Us</a>
+          <a href="">Other Fun and Facts</a>
         </nav>
       </header>
       {/* Logo */}
@@ -61,21 +55,21 @@ setFact(data)
             <div className="item active">
               <img
                 src="https://media.istockphoto.com/id/1468484722/photo/black-woman-phone-and-typing-in-office-for-contact-data-management-app-and-reading-business.jpg?s=1024x1024&w=is&k=20&c=uVoWoKGX52Op21UdazTbC4sWBOtpxQ2qeO03Mw1G0ZI="
-                alt=""
+                alt="photo1"
                 style={{ width: "100%" }}
               />
             </div>
             <div className="item">
               <img
                 src="https://media.istockphoto.com/id/1151429742/photo/waist-up-of-happy-african-lady-looking-at-camera-in-cafe.jpg?s=1024x1024&w=is&k=20&c=LoU7Z_Z26mrRXL8WEOtMgD_dSGmtSOOmjtdfyocF_0k="
-                alt="Chicago"
+                alt="photo2"
                 style={{ width: "100%" }}
               />
             </div>
             <div className="item">
               <img
                 src="https://media.istockphoto.com/id/1425100158/photo/mother-and-daughter-planting-at-home-spending-time-together-and-having-fun.jpg?s=1024x1024&w=is&k=20&c=YcQ0QK8oVEUYaSeREQg9zPF-byMdvXWGIN78-E0GOF8="
-                alt="New york"
+                alt="photo3"
                 style={{ width: "100%" }}
               />
             </div>
@@ -100,17 +94,23 @@ setFact(data)
         </div>
       </div>
       {/* BOOT STRAP IMAGES --------------------------------------------------------------------- */}
+      {/* FACT RENDERING */}
+      <h1>“Discover the Fun in Facts!”</h1>
+      <h2>Click The Icon Below</h2>
+      {/* {data.facts[0]} */}
       {/* Fact Button */}
       <br />
-      <button onClick={FactDisplay}>
+      <button onClick={getFact}>
         <img
           src="/FACTBLITZlightBULBONLY.png"
           width="100"
           height="100"
           alt=""
-        />
-        <FactDisplay/>
-      </button>
+          />
+      </button> 
+      
+          <div><h2>{fact}</h2>
+          </div>
       <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
       <img
         src="https://cdn.prod.website-files.com/64625c027dfd2204b73d973d/6555024a5d0ce0083a745b01_Indicator%20-%20Scroll%20Down%20-%20Timeline%201%20(1).gif"
@@ -198,4 +198,4 @@ setFact(data)
     </>
   );
 }
-export default App;
+export default App

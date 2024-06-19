@@ -21,6 +21,7 @@ function Form ({factsearch}) {
     return(
     <div>
         <Form onSubmit={handleSubmit}>
+            <input></input>
         </Form>
     </div>
     );
