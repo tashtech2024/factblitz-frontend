@@ -3,6 +3,7 @@
 // ************ Contact Page ==========//
 import React from "react"
 import NavBar from "../../NavBar"
+import Footer from "../../Footer";
 
 function ContactPage () {
     return(
@@ -33,7 +34,6 @@ function ContactPage () {
       <button>Click to sign up!</button>
       <br />
       <hr />
-
      </div>
     )
 };

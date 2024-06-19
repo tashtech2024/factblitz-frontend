@@ -7,6 +7,7 @@ import Homepage from "./components/Pages/Homepage"
 import AboutPage from "./components/Pages/AboutPage/index.jsx";
 import ReferencePage from "./components/Pages/ReferencePage/index.jsx";
 import ContactPage from "./components/Pages/ContactPage/index.jsx";
+import SignInLoginPage from "./components/Pages/signloginPage/index.jsx";
 
 import cors from "cors";
 import FactDisplay from "./components/FactsDisplay";
@@ -50,6 +51,9 @@ setFact(data.facts[0])
 </Route> 
 
 <Route path="/referencePage" element={<ReferencePage/>}>
+</Route>   
+
+<Route path="/SignInLoginPage" element={<SignInLoginPage/>}>
 </Route>   
 
    </Routes>

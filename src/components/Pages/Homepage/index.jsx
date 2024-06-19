@@ -7,6 +7,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import NavBar from "../../NavBar.jsx"
+import Footer from "../../Footer.jsx";
 import FactDisplay from "../../FactsDisplay/index.jsx";
 
 
@@ -114,7 +115,7 @@ return(
       <br />
       <br />
       <hr></hr>
-    
+    <Footer/>
         </div>
     )
 }
