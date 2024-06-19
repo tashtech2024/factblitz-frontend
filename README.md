@@ -3,7 +3,7 @@
 ## Description
 Meet your newest knowledge source, Fact Blitz!
 
-Impress your family & Friends with these uncommon and common Dog facts
+Impress your family & Friends with these uncommon and common dog facts
 
 * A full stack application utilizing CRUD functionalities. 
 
@@ -65,6 +65,6 @@ Latasha D.Davis
 https://kinduff.github.io/dog-api/
 
 
-![Logo](https://lh3.googleusercontent.com/pw/AP1GczMh5-f_acNzilwkhXDEHpVkA7E-SFCqglmLqOJXUmByoCptCvgkFKKjnt8WajwReZ-01SgxYktTEIECxZatBRiGRZc5ERzE7JjDQxHAF3Gh944Jz-ySPpnhvkhgvfv9W2qIG8WbUyywGYUWwbCg8O3qE36VmDLp3LskwemgLNwLkgCKjAyzINoST5kgwdFUvJRSnZqOdch8tjpWDy0JzQ3XhrBW9mCV75KdfkrMVIqahhvht2QeJoRNlWmE6cuksd1NLwLy-9l-fp7vSPYbqtk24VhrKJojdYjOed_EAyS3yq4aHSAVC_37drPFwKCW4cMBb5guVUsREOAo7c8Rx-ZHqk5jVDP1-XlJi-gHCWphjxyR5HM6Y3hSvmj3cLp7J7G_ygoyjPxX0wIWCC2cxr-Y1W5wh0hyRjz3dXgT-vfT0F77i9YoMTet2iiFMl3hcUPlk0PdutpCYb9kSVhvPmJ7z-FayeavTVQChZW3bbIMUpDbbjtraCfpvKcYXbsHbKyr5zi_7yRmGCSYbZRmm7fSQEpUK6kOGTBRiXJKenleR7G83cWQsMEX1uXWeyT2AX_z_f6GTm4a7wfviJH2faZV3zcSbng4vfYnT7na3F_1lbzgTXbInEKjoW6faQX8-3pjStmDNmz551enWLcx1KcEgk5Iigx-yUAPrERy2dWMso3ps8EGgEBq-FbMblmKdMUGyKT3kWLb8K8AVb2aR7-Asm9pY10d6QQZfzpXfuDi1hQpqlC7touK2p7DY9eM2wWq3gbxfSuVzOyLdS-pDaJom-sdKtjRvNh65wfSn5MN0FaM3LaceLG8SYyzXfUZHfy9O4lOn6XIwEURovjKU-Km7madh20HU2534uLB9Y_tYMCg9cS7ulKsseozC6sABGwJPVFWkWIxfnk-Bdog5qtyB_R3qcEhtGwvm0vTUEU_QOliSuWdFQvIA6jdwG7EK94CyJ4IA4iukPcApg0aICE885U7QwGV=w789-h393-s-no-gm?authuser=0)
+![Logo](https://photos.fife.usercontent.google.com/pw/AP1GczMa4WxaDLW8iQ4z9d7HpSTexHN_W6OpXrcB4SVJu8U8w55iv0z1zHLC5Q=w500-h249-no?authuser=0)
 
 
