@@ -43,9 +43,9 @@ Information facts to increase intelligence while adding fun and interesting fact
 * Explain the CRUD functionality of your application.
 
 
-## Future Enhancements
-* Upcoming Feature 1
-* Upcoming Feature 2
+## Future Enhancements: Faxt Blitz 2.0
+* Userspage! Add facts to Fact Blitz Database
+* Comment On Facts: 
 
 
 ## Unsolved Problems
