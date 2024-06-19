@@ -3,7 +3,7 @@
 ## Description
 Meet your newest knowledge source, Fact Blitz!
 
-Impress your family & Friends with these uncommon and common facts
+Impress your family & Friends with these uncommon and common dog facts
 
 * A full stack application utilizing CRUD functionalities. 
 
@@ -16,7 +16,8 @@ Information facts to increase intelligence while adding fun and interesting fact
 ### [Backend](https://backend.com/)
 
 ## Roadmap:
-### [Trello Board](https://trello.com/)
+### [Trello Board] [https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final)
+### [Notion] [https://www.notion.so/Davis_Latasha_FactBlitz_Capstone-0bd08c40b30446deb12d5f3eff905a88?pvs=4))
 
 ## Wireframe:
 <img width="500" alt="" src="">
@@ -42,13 +43,12 @@ Information facts to increase intelligence while adding fun and interesting fact
 * Explain the CRUD functionality of your application.
 
 
-## Future Enhancements
-* Upcoming Feature 1
-* Upcoming Feature 2
-
+## Future Enhancements: Faxt Blitz 2.0
+* Userspage! Add facts to Fact Blitz Database
+* Comment On Facts: 
 
 ## Unsolved Problems
-* Bug 1
+* Issues with CRUD : 
 * Bug 2 
 
 ## Contact
@@ -58,43 +58,14 @@ Latasha D.Davis
 [LinkedIn Profile](https://www.linkedin.com/in/latashaddavis/)
 
 ## Acknowledgement
-* Auth Blog Post 1
-* Auth Blog Post 2
-* Auth Tutorial
+* - [@tashtech2024](vhttps://github.com/tashtech2024)
 
 ## API Reference
 
 https://kinduff.github.io/dog-api/
 
-#### Get all facts
+## Logo
 
-```http
-  GET /api/facts
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Authors
-
-- [@tashtech2024](vhttps://github.com/tashtech2024)
-
-![Logo](https://lh3.googleusercontent.com/pw/AP1GczMh5-f_acNzilwkhXDEHpVkA7E-SFCqglmLqOJXUmByoCptCvgkFKKjnt8WajwReZ-01SgxYktTEIECxZatBRiGRZc5ERzE7JjDQxHAF3Gh944Jz-ySPpnhvkhgvfv9W2qIG8WbUyywGYUWwbCg8O3qE36VmDLp3LskwemgLNwLkgCKjAyzINoST5kgwdFUvJRSnZqOdch8tjpWDy0JzQ3XhrBW9mCV75KdfkrMVIqahhvht2QeJoRNlWmE6cuksd1NLwLy-9l-fp7vSPYbqtk24VhrKJojdYjOed_EAyS3yq4aHSAVC_37drPFwKCW4cMBb5guVUsREOAo7c8Rx-ZHqk5jVDP1-XlJi-gHCWphjxyR5HM6Y3hSvmj3cLp7J7G_ygoyjPxX0wIWCC2cxr-Y1W5wh0hyRjz3dXgT-vfT0F77i9YoMTet2iiFMl3hcUPlk0PdutpCYb9kSVhvPmJ7z-FayeavTVQChZW3bbIMUpDbbjtraCfpvKcYXbsHbKyr5zi_7yRmGCSYbZRmm7fSQEpUK6kOGTBRiXJKenleR7G83cWQsMEX1uXWeyT2AX_z_f6GTm4a7wfviJH2faZV3zcSbng4vfYnT7na3F_1lbzgTXbInEKjoW6faQX8-3pjStmDNmz551enWLcx1KcEgk5Iigx-yUAPrERy2dWMso3ps8EGgEBq-FbMblmKdMUGyKT3kWLb8K8AVb2aR7-Asm9pY10d6QQZfzpXfuDi1hQpqlC7touK2p7DY9eM2wWq3gbxfSuVzOyLdS-pDaJom-sdKtjRvNh65wfSn5MN0FaM3LaceLG8SYyzXfUZHfy9O4lOn6XIwEURovjKU-Km7madh20HU2534uLB9Y_tYMCg9cS7ulKsseozC6sABGwJPVFWkWIxfnk-Bdog5qtyB_R3qcEhtGwvm0vTUEU_QOliSuWdFQvIA6jdwG7EK94CyJ4IA4iukPcApg0aICE885U7QwGV=w789-h393-s-no-gm?authuser=0)
+![Logo](https://lh3.googleusercontent.com/pw/AP1GczMvq0NN5f5wQveD1fP1vc1DCWuA2wyyhL7NQjsd_YjJEXunZi2IJUSTBjxzm0ZwH7fJ1IQiJyTB3AprbZPzx_BXsk7-fcR_BQxa5S_idQnXSaGJuvLO07j0BtBkop9iQB586v8bz7wHtFYsWzekcSQL-WlOngdeAKzsjCRhtIDmTJm9dAHMCUY4arUk0ImTjnhQt22q4B_NXx5pfo_DDte13L6toOlznHzwfYruc53H38LuNgK2YeKMVAXvj6FVNgWWPePJUtQYvSujhFuYMjCICp1zE_ZVAOEfoPFAWczsRpaoGZe6EBN923SdsQWXCyULvc0q3O_KNSTXMsl9FaSGo5bHT2ktG4UKDJd8BGM65RqHeIZVzGiyrKWFNREAGFAX863DyEgiLo9hs5E9Co1XLnO20URSfG2Cg4DCFlhTUQ_8dGBqlToqa3j0UDGIikIJkZazeDjgixyZ2nLxOzspKu1hiVMTR_fUQT0fIxlBqGpBJsErjp1y6jdOtxi3HGDKTRmaxqg-XP5UOqTG7jK_YXEV8oSWu9k49kmso7Vz9jnD5tkilcqBjgTstlgo_AgR4mhgS8F1csTbTSFnuOLAvFIhMZPe63sAF0pir9Ij_Q8qOxmGd8kcB1Zwj0TRarW119cTkQq1tZw334uK7Evhh_-jXMEyue6NELN7XIOualF_EhxhkomkBqDChKC8hLeNN2T8BPFLR1RqMEY_-KNHhgWWCW_6mmh38tmZaz8i7OS3g0Hn7g3cp1vog1A2UZOa7lXqnJbhX7FAeT8Gj39L-jDuGBsmcZ7iIHvHcQDTfvA7UbFlvSh6BkFreHvqi1IEhhYRnmS5J18FxCfGW9sApoAPmMOr5LLziP3wsQKbWB9HbPxJbnjhz3_OcEXEsArxBO4MIFIxvyuZ2DOBPG-A9KLYuVO2tu2tYSGDaD4oxRxH5qVssF3SSZQw6TXnUXUtSXQWQuU41Xgm91zcZvGZuSxv3kcwgw=w789-h393-s-no-gm?authuser=0)
 
 
