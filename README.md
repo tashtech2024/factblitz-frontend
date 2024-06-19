@@ -54,8 +54,8 @@ Information facts to increase intelligence while adding fun and interesting fact
 ## Contact
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)    
 
-Your Name Here
-[LinkedIn Profile](https://www.linkedin.com/in/yournamehere/)
+Latasha D.Davis
+[LinkedIn Profile](https://www.linkedin.com/in/latashaddavis/)
 
 ## Acknowledgement
 * Auth Blog Post 1
@@ -63,6 +63,8 @@ Your Name Here
 * Auth Tutorial
 
 ## API Reference
+
+!(https://kinduff.github.io/dog-api/)
 
 #### Get all items
 
