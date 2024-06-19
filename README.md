@@ -16,7 +16,7 @@ Information facts to increase intelligence while adding fun and interesting fact
 ### [Backend](https://backend.com/)
 
 ## Roadmap:
-### [Trello Board]([https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final))
+### [Trello Board] [https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final)
 
 ## Wireframe:
 <img width="500" alt="" src="">
