@@ -8,7 +8,7 @@ Impress your family & Friends with these uncommon and common dog facts
 * A full stack application utilizing CRUD functionalities. 
 
 ## Usage
-Information and facts to increase intelligence while adding fun and interesting facts.
+To enhance the quality of of information and make it more engaging, incorporating interesting facts alongside relevant information can improve learning outcomes.
 
 ## Deployed Project Links
 ### [Frontend](https://github.com/tashtech2024/factblitz-frontend.git)
