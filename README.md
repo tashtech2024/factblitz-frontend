@@ -57,7 +57,7 @@ Latasha D.Davis
 [LinkedIn Profile](https://www.linkedin.com/in/latashaddavis/)
 
 ## Acknowledgement
-* [@tashtech2024](vhttps://github.com/tashtech2024)
+[@tashtech2024](vhttps://github.com/tashtech2024)
 
 ## API Reference
 
