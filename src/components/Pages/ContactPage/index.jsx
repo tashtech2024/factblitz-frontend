@@ -4,11 +4,14 @@
 import React from "react"
 import NavBar from "../../NavBar"
 import Footer from "../../Footer";
+import SigninButton from "../../SigninButton";
 
 function ContactPage () {
     return(
      <div>
         <NavBar/>
+             {/* Logo */}
+             <img src="/FACTBLITZIMGLARGE.png" alt="" />
 <h2>Contact US</h2>
       <img
         src="https://media.istockphoto.com/id/1487506839/photo/portrait-of-multi-cultural-business-team-standing-together-in-office.webp?b=1&s=170667a&w=0&k=20&c=ifstPsghgKBxxgFoUqvKJrjiPd-ujwpIb43hdzNj6yg="
@@ -31,7 +34,7 @@ function ContactPage () {
       />
       {/* Sign Up Button */}
       <br />
-      <button>Click to sign up!</button>
+      <SigninButton/>
       <br />
       <hr />
      </div>

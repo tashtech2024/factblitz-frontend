@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "../../NavBar"
+import SigninButton from "../../SigninButton";
 
 //* ABOUT PAGE : FACT BLITZ 
 
@@ -8,6 +9,8 @@ import NavBar from "../../NavBar"
         
         <div>
             <NavBar/>
+            {/* Logo */}
+            <img src="/FACTBLITZIMGLARGE.png" alt="" />
             <h2> All About Fact Blitz!</h2>
 <hr/>
 <h3> Created In 2008</h3>
@@ -17,15 +20,22 @@ import NavBar from "../../NavBar"
 <br/>
 <br/>
 Vel risus commodo viverra maecenas accumsan lacus. Ut morbi tincidunt augue interdum velit euismod in. Praesent tristique magna sit amet. Ut consequat semper viverra nam. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Volutpat sed cras ornare arcu dui. Purus faucibus ornare suspendisse sed nisi lacus sed. A cras semper auctor neque vitae tempus quam pellentesque. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Interdum posuere lorem ipsum dolor sit. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Vitae aliquet nec ullamcorper sit amet risus nullam. Lorem donec massa sapien faucibus et molestie ac. A cras semper auctor neque vitae tempus quam pellentesque nec. Facilisis volutpat est velit egestas dui id. Tellus id interdum velit laoreet id. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Diam ut venenatis tellus in metus vulputate eu.
+<br/>
+<br/>
+<br/>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu risus quis varius quam quisque id diam vel.
 </h4>
 <br/>
 <br/>
 <hr/>
 <h1> Join Our Fact Family Below</h1>
 <br/>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXAxZ2ZqcW4zNjhybzBwajdrYXg2cGk5MHJ6YWhyanlvZTJqeDd5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h5RfJOwdDlIqpkycmO/giphy.webp"
+width="100"
+height="100"
+/>
 <br/>
-
-<button>Join Now!</button>
+<SigninButton/>
         </div>
     )
 }

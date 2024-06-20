@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-
 import { useState } from "react";
 import NavBar from "../../NavBar";
 
@@ -27,8 +26,16 @@ function SigninLoginPage() {
   };
 
   return (
-    <div className="App">
+    <div className="AppSignIn">
       <NavBar/>
+      <br/>
+      {/* Coming Soon Img */}
+       <img
+        src="https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718236800&semt=ais_user"
+        width="300"
+        height="300"
+      />
+      
       <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
         <div>

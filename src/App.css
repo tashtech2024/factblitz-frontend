@@ -47,9 +47,17 @@
 }
 
 .App{
-  background-color: #0f7d80;
+  max-width: 1280px;
+  background-color: #7deaee;
 }
-
+/* Sign up Page CSS */
 .signUP{
 background-color: #eaf3f3
+}
+
+.AppSignIn{
+  background-color: #F2EBEE;
+  height: 100vh;
+  width: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

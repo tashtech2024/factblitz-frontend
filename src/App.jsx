@@ -47,9 +47,7 @@ setFact(data.facts[0])
 <Route path="/referencePage" element={<ReferencePage/>}>
 </Route>   
 
-<Route path="/SigninLoginPage" element={<SigninLoginPage/>}>
-</Route>   
-
+<Route path="/SigninLoginPage" element={<SigninLoginPage/>}></Route>
    </Routes>
     </Router>
  

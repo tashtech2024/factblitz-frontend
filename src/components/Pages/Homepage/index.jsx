@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import NavBar from "../../NavBar.jsx"
 import Footer from "../../Footer.jsx";
 import FactDisplay from "../../FactsDisplay/index.jsx";
+import SigninButton from "../../SigninButton.jsx";
 
 
 function Homepage (){
@@ -91,6 +92,8 @@ return(
         </div>
       </div>
       {/* BOOT STRAP IMAGES --------------------------------------------------------------------- */}
+
+      <h1>! Its a Fact: </h1>
       {/* Fact Display */}
      <h2>{facts}</h2>
       {/* Fact Button */}
@@ -107,17 +110,19 @@ return(
       <br/>
       <h3> Sign Up to become a Member of the Fact Family and add Facts! </h3>
       <img
-        src="https://cdn.prod.website-files.com/64625c027dfd2204b73d973d/6555024a5d0ce0083a745b01_Indicator%20-%20Scroll%20Down%20-%20Timeline%201%20(1).gif"
+        src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2VkNml0djkzbmI1dmgybWV5ZW04Njl6aGx0MnphdWtsOGduY2lqeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/COoXjKouYQXuejODFA/giphy.webp"
         width="100"
         height="100"
       />
       <br />
 
-     <div >
+     {/* <div >
      <Link to="/signloginpage">
       <button>Click to sign up!</button>
       </Link>
-     </div>
+     </div> */}
+
+     <SigninButton/>
 
       <br />
       <br />
