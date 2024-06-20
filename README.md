@@ -37,11 +37,6 @@ https://www.canva.com/design/DAGIKzjxhOU/j2YqA7uqNrRC-4VzaaPpZw/edit?utm_content
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Technologies Explained:
-* Explain the technologies used in this project. 
-* Explain the CRUD functionality of your application.
-
-
 ## Future Enhancements: Faxt Blitz 2.0
 * Userspage! Add facts to Fact Blitz Database :When you join the Fact Fam, you will be able to add facts soon! 
 * Comment On Facts and update Facts: Comment on Facts of other FB Fam members!
