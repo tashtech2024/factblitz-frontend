@@ -25,10 +25,6 @@ Information facts to increase intelligence while adding fun and interesting fact
 
 https://www.canva.com/design/DAGIKzjxhOU/j2YqA7uqNrRC-4VzaaPpZw/edit?utm_content=DAGIKzjxhOU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Entity Relationship Diagram:
-<img width="500" alt="Screen Shot 2023-05-03 at 1 28 37 PM" src="">
-
-
 ## Built With
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
