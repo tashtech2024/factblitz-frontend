@@ -20,7 +20,7 @@ Information facts to increase intelligence while adding fun and interesting fact
 ### [Notion] [https://www.notion.so/Davis_Latasha_FactBlitz_Capstone-0bd08c40b30446deb12d5f3eff905a88?pvs=4))
 
 ## Wireframe:
-<img width="500" alt="" src="">
+
 
 https://www.canva.com/design/DAGIKzjxhOU/j2YqA7uqNrRC-4VzaaPpZw/edit?utm_content=DAGIKzjxhOU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
@@ -68,6 +68,6 @@ https://kinduff.github.io/dog-api/
 
 ## Logo
 
-![Logo](https://lh3.googleusercontent.com/pw/AP1GczMvq0NN5f5wQveD1fP1vc1DCWuA2wyyhL7NQjsd_YjJEXunZi2IJUSTBjxzm0ZwH7fJ1IQiJyTB3AprbZPzx_BXsk7-fcR_BQxa5S_idQnXSaGJuvLO07j0BtBkop9iQB586v8bz7wHtFYsWzekcSQL-WlOngdeAKzsjCRhtIDmTJm9dAHMCUY4arUk0ImTjnhQt22q4B_NXx5pfo_DDte13L6toOlznHzwfYruc53H38LuNgK2YeKMVAXvj6FVNgWWPePJUtQYvSujhFuYMjCICp1zE_ZVAOEfoPFAWczsRpaoGZe6EBN923SdsQWXCyULvc0q3O_KNSTXMsl9FaSGo5bHT2ktG4UKDJd8BGM65RqHeIZVzGiyrKWFNREAGFAX863DyEgiLo9hs5E9Co1XLnO20URSfG2Cg4DCFlhTUQ_8dGBqlToqa3j0UDGIikIJkZazeDjgixyZ2nLxOzspKu1hiVMTR_fUQT0fIxlBqGpBJsErjp1y6jdOtxi3HGDKTRmaxqg-XP5UOqTG7jK_YXEV8oSWu9k49kmso7Vz9jnD5tkilcqBjgTstlgo_AgR4mhgS8F1csTbTSFnuOLAvFIhMZPe63sAF0pir9Ij_Q8qOxmGd8kcB1Zwj0TRarW119cTkQq1tZw334uK7Evhh_-jXMEyue6NELN7XIOualF_EhxhkomkBqDChKC8hLeNN2T8BPFLR1RqMEY_-KNHhgWWCW_6mmh38tmZaz8i7OS3g0Hn7g3cp1vog1A2UZOa7lXqnJbhX7FAeT8Gj39L-jDuGBsmcZ7iIHvHcQDTfvA7UbFlvSh6BkFreHvqi1IEhhYRnmS5J18FxCfGW9sApoAPmMOr5LLziP3wsQKbWB9HbPxJbnjhz3_OcEXEsArxBO4MIFIxvyuZ2DOBPG-A9KLYuVO2tu2tYSGDaD4oxRxH5qVssF3SSZQw6TXnUXUtSXQWQuU41Xgm91zcZvGZuSxv3kcwgw=w789-h393-s-no-gm?authuser=0)
+
 
 
