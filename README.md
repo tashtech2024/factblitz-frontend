@@ -13,7 +13,7 @@ Information facts to increase intelligence while adding fun and interesting fact
 ## Deployed Project Links
 ### [Frontend](https://frontend.com/)
 
-### [Backend](https://backend.com/)
+### [Backend](https://github.com/tashtech2024/factblitz-backend.git)
 
 ## Roadmap:
 ### [Trello Board] [https://trello.com/](https://trello.com/b/Y1I79QZf/capstone-project-final)
