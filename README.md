@@ -48,7 +48,7 @@ https://www.canva.com/design/DAGIKzjxhOU/j2YqA7uqNrRC-4VzaaPpZw/edit?utm_content
 
 ## Unsolved Problems
 * Issues with CRUD : nothing GET/POST/PUT OR DELETING 
-* Css issue with front-end
+* CSS issues with front-end
 
 ## Contact
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)    
@@ -57,7 +57,7 @@ Latasha D.Davis
 [LinkedIn Profile](https://www.linkedin.com/in/latashaddavis/)
 
 ## Acknowledgement
-* - [@tashtech2024](vhttps://github.com/tashtech2024)
+* [@tashtech2024](vhttps://github.com/tashtech2024)
 
 ## API Reference
 
