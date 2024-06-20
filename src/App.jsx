@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import { useState, useEffect } from "react";
 import Homepage from "./components/Pages/Homepage"
@@ -6,6 +7,7 @@ import AboutPage from "./components/Pages/AboutPage/index.jsx";
 import ReferencePage from "./components/Pages/ReferencePage/index.jsx";
 import ContactPage from "./components/Pages/ContactPage/index.jsx";
 import SigninLoginPage from "./components/Pages/SigninLoginPage/index.jsx";
+// import UserPage from "./components/Pages/UserPage/index.jsx"
 
 import cors from "cors";
 // app.use(cors())
@@ -49,7 +51,17 @@ setFact(data.facts[0])
 
 <Route path="/SigninLoginPage" element={<SigninLoginPage/>}></Route>
    </Routes>
+
+{/* <Routes><Route path="/UserPage" element={<UserPage/>}></Route></Routes> */}
+
     </Router>
+    
+    {/* <Container>
+    <h1>Twitter App</h1>
+
+    <TweetsList />
+  </Container> */}
+    
  
     </>
   );

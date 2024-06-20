@@ -35,6 +35,8 @@ function SigninLoginPage() {
         width="300"
         height="300"
       />
+  
+  
       
       <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
@@ -62,6 +64,9 @@ function SigninLoginPage() {
         {isLogin ? 'Switch to Sign Up' : 'Switch to Login'}
       </button>
     </div>
+    
+
+    
   );
 }
 
