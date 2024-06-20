@@ -11,7 +11,7 @@ Impress your family & Friends with these uncommon and common dog facts
 Information facts to increase intelligence while adding fun and interesting facts.
 
 ## Deployed Project Links
-### [Frontend](https://frontend.com/)
+### [Frontend](https://github.com/tashtech2024/factblitz-frontend.git)
 
 ### [Backend](https://github.com/tashtech2024/factblitz-backend.git)
 
