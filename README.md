@@ -43,12 +43,12 @@ https://www.canva.com/design/DAGIKzjxhOU/j2YqA7uqNrRC-4VzaaPpZw/edit?utm_content
 
 
 ## Future Enhancements: Faxt Blitz 2.0
-* Userspage! Add facts to Fact Blitz Database
-* Comment On Facts: 
+* Userspage! Add facts to Fact Blitz Database :When you join the Fact Fam, you will be able to add facts soon! 
+* Comment On Facts and update Facts: Comment on Facts of other FB Fam members!
 
 ## Unsolved Problems
-* Issues with CRUD : 
-* Bug 2 
+* Issues with CRUD : nothing GET/POST/PUT OR DELETING 
+* Css issue with front-end
 
 ## Contact
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)    
